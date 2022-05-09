@@ -163,9 +163,9 @@ echo '
 }else{?>
 <form action="" method="post">
 <input type="text" name="url" placeholder="<?= xploit::locate(); ?>" value="<?= xploit::locate(); ?>">
-<select name="method">
-        <option value="1">Locked</option>
-        <option value="2">Unlocked</option>
+<font color="#3EF403"><select name="method">
+        <option value="1"><font color="#3EF403">Locked</option>
+        <option value="2">Unlocked</option></font>
 </select>
 <input type="checkbox" name="savemode" value="1">Save Mode
 <input type="submit" name="submit" value="Gas!!!"/>
