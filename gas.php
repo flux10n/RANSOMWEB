@@ -118,7 +118,7 @@ class xploit
     }
     input {
             border: dashed 1px;
-            border-color: #4CAF50;
+            border-color: #333;
             background-color: Black;
             font: 8pt Verdana;
             color: #0CFF37;
@@ -126,7 +126,7 @@ class xploit
  
     select {
         border: dashed 1px;
-        border-color: #4CAF50;
+        border-color: #333;
         background-color: Black;
         font: 8pt Verdana;
         color: #4CAF50;
@@ -175,7 +175,7 @@ echo '
     echo xploit::boom($_POST['url'],$_POST['method']);
     if($_POST['savemode']=="1"){
         if(xploit::savemode()){
-        echo ">,< Lari ada heker...";
+        echo ">v< Wait.....";
         }
     }
 }
