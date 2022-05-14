@@ -136,8 +136,6 @@ class xploit
 <body>
 <pre style='margin:0px 30%; font-size:20px; color:blue;'>
 
-
-
                +              
                #              
               ###             
@@ -157,8 +155,6 @@ class xploit
   ##'                     '##   
  #'                         `#
     -- No System Is Safe --
- 
- 
  
  </pre>
  
