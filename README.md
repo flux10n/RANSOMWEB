@@ -1,3 +1,1 @@
 # RANSOMWEB
-
-ajajsjjssjkskjnmsksosoaoodiiddj
